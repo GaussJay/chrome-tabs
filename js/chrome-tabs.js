@@ -94,16 +94,10 @@
     },
     setupTabClones: function($shell) {
       var $clone, $lastClone, $tabsContainer;
-      $lastClone = $shell.find('.chrome-tabs.chrome-tabs-clone');
       $tabsContainer = $shell.find('.chrome-tabs').first();
       $clone = $tabsContainer.clone().addClass('chrome-tabs-clone');
       $clone.find('.ui-sortable-helper, .ui-sortable-draggable-item').remove();
       $clone.find('.chrome-tab').css('position', '');
-      if ($lastClone.length) {
-        return $lastClone.replaceWith($clone);
-      } else {
-        return $tabsContainer.after($clone);
-      }
     },
     cleanUpTabClones: function($shell) {
       return $shell.find('.chrome-tabs.chrome-tabs-clone').remove();
