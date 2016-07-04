@@ -2,6 +2,6 @@
 
 Exactly what you think this is. Go wild.
 
-### [Demo](http://adamschwartz.co/chrome-tabs/)
+### [Demo - Edited](https://jsfiddle.net/jsk8rpgf/)
 
 ![](http://adamschwartz.co/chrome-tabs/chrome-tabs.gif)
